@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.li
+{
+  @apply py-2 px-4 w-full font-medium text-left border-b border-gray-200 cursor-pointer
+}
+
+.li1{
+  @apply  hover:py-4  text-white bg-blue-700 hover:text-white hover:bg-blue-700
+}
